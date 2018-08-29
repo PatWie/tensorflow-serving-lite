@@ -1,0 +1,7 @@
+tensorflow_serving_lite:
+  rest_port: 3000
+  rpc_port: 3001
+models:
+  - path: /tmp/simple_model/1/
+    name: simple_model
+    version: 1
